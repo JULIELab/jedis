@@ -194,7 +194,7 @@
             <nameValuePair>
                 <name>CostosysConfigFile</name>
                 <value>
-                    <string>../costosys.xml</string>
+                    <string>costosys.xml</string>
                 </value>
             </nameValuePair>
             <nameValuePair>

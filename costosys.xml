@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<databaseConnectorConfiguration>
+    <DBSchemaInformation>
+        <activePostgresSchema>jedis_example</activePostgresSchema>
+        <activeTableSchema>medline_2017</activeTableSchema>
+        <tableSchemas>
+            <tableSchema forEach="." name="xmi_anno_view">
+                <field name="pmid" primaryKey="true" retrieve="true" type="text" xpath="PMID"/>
+                <field gzip="false" name="xmi" retrieve="true" returnXMLFragment="true" type="text" xpath="."/>
+            </tableSchema>
+        </tableSchemas>
+    </DBSchemaInformation>
+    <DBConnectionInformation>
+        <activeDBConnection>docker_pg</activeDBConnection>
+        <maxActiveDBConnections>2</maxActiveDBConnections>
+        <DBConnections>
+            <DBConnection name="docker_pg" url="jdbc:postgresql://localhost:5432/postgres"/>
+        </DBConnections>
+    </DBConnectionInformation>
+</databaseConnectorConfiguration>

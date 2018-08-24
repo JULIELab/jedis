@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<configuration>
+    <runners>
+        <runner>
+            <name>CPERunner</name>
+            <pipelinepath>banner-gene-pipeline</pipelinepath>
+            <numthreads>1</numthreads>
+        </runner>
+    </runners>
+</configuration>
