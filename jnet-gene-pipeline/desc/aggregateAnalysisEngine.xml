@@ -79,9 +79,7 @@ Available modes are:
                             <name>EntityTypes</name>
                             <value>
                                 <array>
-                                    <string>gene-protein=de.julielab.jcore.types.EntityMention</string>
-                                    <string>gene-generic=de.julielab.jcore.types.EntityMention</string>
-                                    <string>gene-rna=de.julielab.jcore.types.EntityMention</string>
+                                    <string>GENE=de.julielab.jcore.types.Gene</string>
                                 </array>
                             </value>
                         </nameValuePair>
@@ -100,7 +98,7 @@ Available modes are:
                         <nameValuePair>
                             <name>ModelFilename</name>
                             <value>
-                                <string>de/julielab/jcore/ae/jnet/model/jnet-pennbio.gz</string>
+                                <string>jnet-gene-pipeline/resources/allBc2GeniaPennPir.mod.gz</string>
                             </value>
                         </nameValuePair>
                         <nameValuePair>
